@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSA Company - Zgjidhje profesionale për ngrohje, ftohje dhe instalime</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>BSA Company</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-translate="nav.home">Ballina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link" data-translate="nav.services">Shërbimet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-translate="nav.about">Rreth Nesh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-translate="nav.contact">Kontakti</a>
+                    </li>
+                </ul>
+                <div class="language-switcher">
+                    <select id="languageSelect">
+                        <option value="sq">SQ</option>
+                        <option value="en">EN</option>
+                        <option value="mk">MK</option>
+                    </select>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="hero-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">BSA Company</h1>
+            <p class="hero-subtitle" data-translate="hero.slogan">Zgjidhje profesionale për ngrohje, ftohje dhe instalime</p>
+            <a href="#services" class="cta-button" data-translate="hero.cta">Shiko Shërbimet</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-translate="services.title">Shërbimet Tona</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 data-translate="services.heating.title">Nxemje Qendrore</h3>
+                    <p data-translate="services.heating.description">Instalim dhe mirëmbajtje profesionale e sistemeve të nxemjes qendrore për shtëpi dhe biznese.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3 data-translate="services.ac.title">Klimatizim</h3>
+                    <p data-translate="services.ac.description">Shitje dhe instalim i sistemeve të kondicionimit të ajrit për komfort maksimal.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 data-translate="services.water.title">Instalim i Ujit</h3>
+                    <p data-translate="services.water.description">Instalime të plota të sistemeve të ujit të pijshëm dhe të nxehtë për çdo lloj ndërtese.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 data-translate="services.sewer.title">Kanalizim</h3>
+                    <p data-translate="services.sewer.description">Sisteme të plota kanalizimi dhe drenazhi me teknologji moderne.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-translate="about.title">Rreth Nesh</h2>
+                    <p data-translate="about.description">BSA Company është një kompani e specializuar në fushën e instalimeve teknike me vite përvojë në treg. Ne ofrojmë shërbime të plota për nxemje qendrore, klimatizim, instalime uji dhe kanalizim. Ekipi ynë i kualifikuar siguron cilësi të lartë dhe shërbim profesional për çdo projekt.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.feature1">Përvojë shumëvjeçare</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.feature2">Ekip i kualifikuar</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-translate="about.feature3">Cilësi e garantuar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/placeholder.svg?height=400&width=500" alt="BSA Company Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Kontaktoni Me Ne</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-translate="contact.phone">Telefoni</h4>
+                            <p>+383 44 123 456</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-translate="contact.email">Email</h4>
+                            <p>info@bsacompany.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-translate="contact.address">Adresa</h4>
+                            <p>Prishtinë, Kosovë</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Emri" data-translate-placeholder="contact.form.name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" data-translate-placeholder="contact.form.email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Telefoni" data-translate-placeholder="contact.form.phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mesazhi" data-translate-placeholder="contact.form.message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" data-translate="contact.form.submit">Dërgo Mesazhin</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.8!2d21.1655!3d42.6629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPrishtina!5e0!3m2!1sen!2s!4v1234567890"
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BSA Company</h3>
+                    <p data-translate="footer.description">Zgjidhje profesionale për ngrohje, ftohje dhe instalime</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.services">Shërbimet</h4>
+                    <ul>
+                        <li data-translate="services.heating.title">Nxemje Qendrore</li>
+                        <li data-translate="services.ac.title">Klimatizim</li>
+                        <li data-translate="services.water.title">Instalim i Ujit</li>
+                        <li data-translate="services.sewer.title">Kanalizim</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.contact">Kontakti</h4>
+                    <p>+383 44 123 456</p>
+                    <p>info@bsacompany.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-translate="footer.follow">Na Ndiqni</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BSA Company. <span data-translate="footer.rights">Të gjitha të drejtat e rezervuara.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
