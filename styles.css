@@ -168,7 +168,24 @@ body {
 .cta-button:hover {
   background: #1e3f73;
 }
+@media (max-width: 768px) {
+  .hero-text {
+    margin-top: 4vh;
+  }
 
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-button-wrapper {
+    margin-bottom: 6vh;
+  }
+}
 
 /* Section Styles */
 .section-title {
